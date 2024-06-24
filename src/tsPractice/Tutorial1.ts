@@ -120,4 +120,22 @@ const finalPrice2=(price:number,discount:number=10)=>{ // default parameter
 console.log(finalPrice2(200));
 console.log(finalPrice2(200,150))
 
+// Task 1
+
+function processInput(value:number|string):void{  //Union 
+    if(typeof value==='number'){
+        console.log(value*2);
+    }
+    else if(typeof value==='string'){
+        console.log(value.toLocaleUpperCase());
+    }
+}
+processInput(15);
+processInput('sangam shukla');
+
+
+
+
+
+
 
